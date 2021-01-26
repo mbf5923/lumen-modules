@@ -47,10 +47,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Mbf\\Modules\\LaravelModulesServiceProvider"
+        "Mbf5923\\Modules\\LaravelModulesServiceProvider"
       ],
       "aliases": {
-        "Module": "Mbf\\Modules\\Facades\\Module"
+        "Module": "Mbf5923\\Modules\\Facades\\Module"
       }
     },
     "branch-alias": {
