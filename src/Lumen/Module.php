@@ -1,9 +1,9 @@
 <?php
 
-namespace Nwidart\Modules\Lumen;
+namespace Mbf5923\Modules\Lumen;
 
 use Illuminate\Support\Str;
-use Nwidart\Modules\Module as BaseModule;
+use Mbf5923\Modules\Module as BaseModule;
 
 class Module extends BaseModule
 {

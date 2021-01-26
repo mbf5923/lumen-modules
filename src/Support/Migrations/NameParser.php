@@ -1,6 +1,6 @@
 <?php
 
-namespace Nwidart\Modules\Support\Migrations;
+namespace Mbf5923\Modules\Support\Migrations;
 
 class NameParser
 {

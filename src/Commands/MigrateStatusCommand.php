@@ -1,10 +1,10 @@
 <?php
 
-namespace Nwidart\Modules\Commands;
+namespace Mbf5923\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Nwidart\Modules\Migrations\Migrator;
-use Nwidart\Modules\Module;
+use Mbf5923\Modules\Migrations\Migrator;
+use Mbf5923\Modules\Module;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
@@ -25,7 +25,7 @@ class MigrateStatusCommand extends Command
     protected $description = 'Status for all module migrations';
 
     /**
-     * @var \Nwidart\Modules\Contracts\RepositoryInterface
+     * @var \Mbf5923\Modules\Contracts\RepositoryInterface
      */
     protected $module;
 

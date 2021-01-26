@@ -1,8 +1,8 @@
 <?php
 
-namespace Nwidart\Modules\Laravel;
+namespace Mbf5923\Modules\Laravel;
 
-use Nwidart\Modules\FileRepository;
+use Mbf5923\Modules\FileRepository;
 
 class LaravelFileRepository extends FileRepository
 {

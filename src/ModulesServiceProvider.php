@@ -1,11 +1,11 @@
 <?php
 
-namespace Nwidart\Modules;
+namespace Mbf5923\Modules;
 
 use Illuminate\Support\ServiceProvider;
-use Nwidart\Modules\Providers\BootstrapServiceProvider;
-use Nwidart\Modules\Providers\ConsoleServiceProvider;
-use Nwidart\Modules\Providers\ContractsServiceProvider;
+use Mbf5923\Modules\Providers\BootstrapServiceProvider;
+use Mbf5923\Modules\Providers\ConsoleServiceProvider;
+use Mbf5923\Modules\Providers\ContractsServiceProvider;
 
 abstract class ModulesServiceProvider extends ServiceProvider
 {

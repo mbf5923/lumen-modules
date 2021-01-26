@@ -1,9 +1,9 @@
 <?php
 
-namespace Nwidart\Modules\Commands;
+namespace Mbf5923\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Nwidart\Modules\Traits\ModuleCommandTrait;
+use Mbf5923\Modules\Traits\ModuleCommandTrait;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

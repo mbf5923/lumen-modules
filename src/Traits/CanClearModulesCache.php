@@ -1,6 +1,6 @@
 <?php
 
-namespace Nwidart\Modules\Traits;
+namespace Mbf5923\Modules\Traits;
 
 trait CanClearModulesCache
 {

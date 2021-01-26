@@ -1,6 +1,6 @@
 <?php
 
-use Nwidart\Modules\Activators\FileActivator;
+use Mbf5923\Modules\Activators\FileActivator;
 
 return [
 
@@ -26,7 +26,7 @@ return [
 
     'stubs' => [
         'enabled' => false,
-        'path' => base_path() . '/vendor/nwidart/laravel-modules/src/Commands/stubs',
+        'path' => base_path() . '/vendor/Mbf5923/laravel-modules/src/Commands/stubs',
         'files' => [
             'routes/web' => 'Routes/web.php',
             'scaffold/config' => 'Config/config.php',
@@ -201,7 +201,7 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'nwidart',
+        'vendor' => 'Mbf5923',
         'author' => [
             'name' => 'Nicolas Widart',
             'email' => 'n.widart@gmail.com',

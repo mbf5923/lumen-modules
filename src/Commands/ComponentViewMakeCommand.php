@@ -1,12 +1,12 @@
 <?php
 
-namespace Nwidart\Modules\Commands;
+namespace Mbf5923\Modules\Commands;
 
 use Illuminate\Foundation\Inspiring;
 use Illuminate\Support\Str;
-use Nwidart\Modules\Support\Config\GenerateConfigReader;
-use Nwidart\Modules\Support\Stub;
-use Nwidart\Modules\Traits\ModuleCommandTrait;
+use Mbf5923\Modules\Support\Config\GenerateConfigReader;
+use Mbf5923\Modules\Support\Stub;
+use Mbf5923\Modules\Traits\ModuleCommandTrait;
 use Symfony\Component\Console\Input\InputArgument;
 
 class ComponentViewMakeCommand extends GeneratorCommand

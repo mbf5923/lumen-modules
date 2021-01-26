@@ -1,6 +1,6 @@
 <?php
 
-namespace Nwidart\Modules\Contracts;
+namespace Mbf5923\Modules\Contracts;
 
 interface PublisherInterface
 {

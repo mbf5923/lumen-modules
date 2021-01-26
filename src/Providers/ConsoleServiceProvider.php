@@ -1,52 +1,52 @@
 <?php
 
-namespace Nwidart\Modules\Providers;
+namespace Mbf5923\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
-use Nwidart\Modules\Commands\CommandMakeCommand;
-use Nwidart\Modules\Commands\ComponentClassMakeCommand;
-use Nwidart\Modules\Commands\ComponentViewMakeCommand;
-use Nwidart\Modules\Commands\ControllerMakeCommand;
-use Nwidart\Modules\Commands\DisableCommand;
-use Nwidart\Modules\Commands\DumpCommand;
-use Nwidart\Modules\Commands\EnableCommand;
-use Nwidart\Modules\Commands\EventMakeCommand;
-use Nwidart\Modules\Commands\FactoryMakeCommand;
-use Nwidart\Modules\Commands\InstallCommand;
-use Nwidart\Modules\Commands\JobMakeCommand;
-use Nwidart\Modules\Commands\LaravelModulesV6Migrator;
-use Nwidart\Modules\Commands\ListCommand;
-use Nwidart\Modules\Commands\ListenerMakeCommand;
-use Nwidart\Modules\Commands\MailMakeCommand;
-use Nwidart\Modules\Commands\MiddlewareMakeCommand;
-use Nwidart\Modules\Commands\MigrateCommand;
-use Nwidart\Modules\Commands\MigrateRefreshCommand;
-use Nwidart\Modules\Commands\MigrateResetCommand;
-use Nwidart\Modules\Commands\MigrateRollbackCommand;
-use Nwidart\Modules\Commands\MigrateStatusCommand;
-use Nwidart\Modules\Commands\MigrationMakeCommand;
-use Nwidart\Modules\Commands\ModelMakeCommand;
-use Nwidart\Modules\Commands\ModuleDeleteCommand;
-use Nwidart\Modules\Commands\ModuleMakeCommand;
-use Nwidart\Modules\Commands\NotificationMakeCommand;
-use Nwidart\Modules\Commands\PolicyMakeCommand;
-use Nwidart\Modules\Commands\ProviderMakeCommand;
-use Nwidart\Modules\Commands\PublishCommand;
-use Nwidart\Modules\Commands\PublishConfigurationCommand;
-use Nwidart\Modules\Commands\PublishMigrationCommand;
-use Nwidart\Modules\Commands\PublishTranslationCommand;
-use Nwidart\Modules\Commands\RequestMakeCommand;
-use Nwidart\Modules\Commands\ResourceMakeCommand;
-use Nwidart\Modules\Commands\RouteProviderMakeCommand;
-use Nwidart\Modules\Commands\RuleMakeCommand;
-use Nwidart\Modules\Commands\SeedCommand;
-use Nwidart\Modules\Commands\SeedMakeCommand;
-use Nwidart\Modules\Commands\SetupCommand;
-use Nwidart\Modules\Commands\TestMakeCommand;
-use Nwidart\Modules\Commands\UnUseCommand;
-use Nwidart\Modules\Commands\UpdateCommand;
-use Nwidart\Modules\Commands\UseCommand;
+use Mbf5923\Modules\Commands\CommandMakeCommand;
+use Mbf5923\Modules\Commands\ComponentClassMakeCommand;
+use Mbf5923\Modules\Commands\ComponentViewMakeCommand;
+use Mbf5923\Modules\Commands\ControllerMakeCommand;
+use Mbf5923\Modules\Commands\DisableCommand;
+use Mbf5923\Modules\Commands\DumpCommand;
+use Mbf5923\Modules\Commands\EnableCommand;
+use Mbf5923\Modules\Commands\EventMakeCommand;
+use Mbf5923\Modules\Commands\FactoryMakeCommand;
+use Mbf5923\Modules\Commands\InstallCommand;
+use Mbf5923\Modules\Commands\JobMakeCommand;
+use Mbf5923\Modules\Commands\LaravelModulesV6Migrator;
+use Mbf5923\Modules\Commands\ListCommand;
+use Mbf5923\Modules\Commands\ListenerMakeCommand;
+use Mbf5923\Modules\Commands\MailMakeCommand;
+use Mbf5923\Modules\Commands\MiddlewareMakeCommand;
+use Mbf5923\Modules\Commands\MigrateCommand;
+use Mbf5923\Modules\Commands\MigrateRefreshCommand;
+use Mbf5923\Modules\Commands\MigrateResetCommand;
+use Mbf5923\Modules\Commands\MigrateRollbackCommand;
+use Mbf5923\Modules\Commands\MigrateStatusCommand;
+use Mbf5923\Modules\Commands\MigrationMakeCommand;
+use Mbf5923\Modules\Commands\ModelMakeCommand;
+use Mbf5923\Modules\Commands\ModuleDeleteCommand;
+use Mbf5923\Modules\Commands\ModuleMakeCommand;
+use Mbf5923\Modules\Commands\NotificationMakeCommand;
+use Mbf5923\Modules\Commands\PolicyMakeCommand;
+use Mbf5923\Modules\Commands\ProviderMakeCommand;
+use Mbf5923\Modules\Commands\PublishCommand;
+use Mbf5923\Modules\Commands\PublishConfigurationCommand;
+use Mbf5923\Modules\Commands\PublishMigrationCommand;
+use Mbf5923\Modules\Commands\PublishTranslationCommand;
+use Mbf5923\Modules\Commands\RequestMakeCommand;
+use Mbf5923\Modules\Commands\ResourceMakeCommand;
+use Mbf5923\Modules\Commands\RouteProviderMakeCommand;
+use Mbf5923\Modules\Commands\RuleMakeCommand;
+use Mbf5923\Modules\Commands\SeedCommand;
+use Mbf5923\Modules\Commands\SeedMakeCommand;
+use Mbf5923\Modules\Commands\SetupCommand;
+use Mbf5923\Modules\Commands\TestMakeCommand;
+use Mbf5923\Modules\Commands\UnUseCommand;
+use Mbf5923\Modules\Commands\UpdateCommand;
+use Mbf5923\Modules\Commands\UseCommand;
 
 class ConsoleServiceProvider extends ServiceProvider
 {
@@ -54,7 +54,7 @@ class ConsoleServiceProvider extends ServiceProvider
      * Namespace of the console commands
      * @var string
      */
-    protected $consoleNamespace = "Nwidart\\Modules\\Commands";
+    protected $consoleNamespace = "Mbf5923\\Modules\\Commands";
 
     /**
      * The available commands

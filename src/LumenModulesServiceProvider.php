@@ -1,8 +1,8 @@
 <?php
 
-namespace Nwidart\Modules;
+namespace Mbf5923\Modules;
 
-use Nwidart\Modules\Support\Stub;
+use Mbf5923\Modules\Support\Stub;
 
 class LumenModulesServiceProvider extends ModulesServiceProvider
 {

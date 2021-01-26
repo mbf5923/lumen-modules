@@ -1,9 +1,9 @@
 <?php
 
-namespace Nwidart\Modules\Providers;
+namespace Mbf5923\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Nwidart\Modules\Contracts\RepositoryInterface;
+use Mbf5923\Modules\Contracts\RepositoryInterface;
 
 class BootstrapServiceProvider extends ServiceProvider
 {

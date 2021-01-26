@@ -1,9 +1,9 @@
 <?php
 
-namespace Nwidart\Modules\Commands;
+namespace Mbf5923\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Nwidart\Modules\Module;
+use Mbf5923\Modules\Module;
 use Symfony\Component\Console\Input\InputArgument;
 
 class DisableCommand extends Command
