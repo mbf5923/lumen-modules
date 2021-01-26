@@ -1,8 +1,8 @@
 <?php
 
-namespace Mbf5923\Modules;
+namespace Mbf\Modules;
 
-use Mbf5923\Modules\Support\Stub;
+use Mbf\Modules\Support\Stub;
 
 class LumenModulesServiceProvider extends ModulesServiceProvider
 {

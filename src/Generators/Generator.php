@@ -1,6 +1,6 @@
 <?php
 
-namespace Mbf5923\Modules\Generators;
+namespace Mbf\Modules\Generators;
 
 abstract class Generator
 {

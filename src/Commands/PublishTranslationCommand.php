@@ -1,10 +1,10 @@
 <?php
 
-namespace Mbf5923\Modules\Commands;
+namespace Mbf\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Mbf5923\Modules\Module;
-use Mbf5923\Modules\Publishing\LangPublisher;
+use Mbf\Modules\Module;
+use Mbf\Modules\Publishing\LangPublisher;
 use Symfony\Component\Console\Input\InputArgument;
 
 class PublishTranslationCommand extends Command

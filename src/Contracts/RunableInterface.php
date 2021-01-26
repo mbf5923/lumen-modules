@@ -1,6 +1,6 @@
 <?php
 
-namespace Mbf5923\Modules\Contracts;
+namespace Mbf\Modules\Contracts;
 
 interface RunableInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-use Mbf5923\Modules\Activators\FileActivator;
+use Mbf\Modules\Activators\FileActivator;
 
 return [
 
@@ -26,7 +26,7 @@ return [
 
     'stubs' => [
         'enabled' => false,
-        'path' => base_path() . '/vendor/Mbf5923/laravel-modules/src/Commands/stubs',
+        'path' => base_path() . '/vendor/Mbf/laravel-modules/src/Commands/stubs',
         'files' => [
             'routes/web' => 'Routes/web.php',
             'scaffold/config' => 'Config/config.php',
@@ -201,10 +201,10 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'Mbf5923',
+        'vendor' => 'Mbf',
         'author' => [
-            'name' => 'Nicolas Widart',
-            'email' => 'n.widart@gmail.com',
+            'name' => 'Mohammad Baladi',
+            'email' => 'mbf5923@gmail.com',
         ],
     ],
 
@@ -220,7 +220,7 @@ return [
     */
     'cache' => [
         'enabled' => false,
-        'key' => 'laravel-modules',
+        'key' => 'lumen-modules',
         'lifetime' => 60,
     ],
     /*

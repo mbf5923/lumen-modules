@@ -1,6 +1,6 @@
 <?php
 
-namespace Mbf5923\Modules\Traits;
+namespace Mbf\Modules\Traits;
 
 trait MigrationLoaderTrait
 {

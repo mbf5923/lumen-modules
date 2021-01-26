@@ -1,15 +1,15 @@
 <?php
 
-namespace Mbf5923\Modules\Commands;
+namespace Mbf\Modules\Commands;
 
 use ErrorException;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Support\Str;
-use Mbf5923\Modules\Contracts\RepositoryInterface;
-use Mbf5923\Modules\Module;
-use Mbf5923\Modules\Support\Config\GenerateConfigReader;
-use Mbf5923\Modules\Traits\ModuleCommandTrait;
+use Mbf\Modules\Contracts\RepositoryInterface;
+use Mbf\Modules\Module;
+use Mbf\Modules\Support\Config\GenerateConfigReader;
+use Mbf\Modules\Traits\ModuleCommandTrait;
 use RuntimeException;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;

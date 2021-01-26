@@ -1,6 +1,6 @@
 <?php
 
-namespace Mbf5923\Modules\Support\Migrations;
+namespace Mbf\Modules\Support\Migrations;
 
 class NameParser
 {

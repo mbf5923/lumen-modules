@@ -1,10 +1,10 @@
 <?php
 
-namespace Mbf5923\Modules\Commands;
+namespace Mbf\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Mbf5923\Modules\Contracts\ActivatorInterface;
-use Mbf5923\Modules\Generators\ModuleGenerator;
+use Mbf\Modules\Contracts\ActivatorInterface;
+use Mbf\Modules\Generators\ModuleGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

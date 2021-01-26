@@ -1,6 +1,6 @@
 <?php
 
-namespace Mbf5923\Modules\Support\Config;
+namespace Mbf\Modules\Support\Config;
 
 class GeneratorPath
 {

@@ -1,52 +1,52 @@
 <?php
 
-namespace Mbf5923\Modules\Providers;
+namespace Mbf\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
-use Mbf5923\Modules\Commands\CommandMakeCommand;
-use Mbf5923\Modules\Commands\ComponentClassMakeCommand;
-use Mbf5923\Modules\Commands\ComponentViewMakeCommand;
-use Mbf5923\Modules\Commands\ControllerMakeCommand;
-use Mbf5923\Modules\Commands\DisableCommand;
-use Mbf5923\Modules\Commands\DumpCommand;
-use Mbf5923\Modules\Commands\EnableCommand;
-use Mbf5923\Modules\Commands\EventMakeCommand;
-use Mbf5923\Modules\Commands\FactoryMakeCommand;
-use Mbf5923\Modules\Commands\InstallCommand;
-use Mbf5923\Modules\Commands\JobMakeCommand;
-use Mbf5923\Modules\Commands\LaravelModulesV6Migrator;
-use Mbf5923\Modules\Commands\ListCommand;
-use Mbf5923\Modules\Commands\ListenerMakeCommand;
-use Mbf5923\Modules\Commands\MailMakeCommand;
-use Mbf5923\Modules\Commands\MiddlewareMakeCommand;
-use Mbf5923\Modules\Commands\MigrateCommand;
-use Mbf5923\Modules\Commands\MigrateRefreshCommand;
-use Mbf5923\Modules\Commands\MigrateResetCommand;
-use Mbf5923\Modules\Commands\MigrateRollbackCommand;
-use Mbf5923\Modules\Commands\MigrateStatusCommand;
-use Mbf5923\Modules\Commands\MigrationMakeCommand;
-use Mbf5923\Modules\Commands\ModelMakeCommand;
-use Mbf5923\Modules\Commands\ModuleDeleteCommand;
-use Mbf5923\Modules\Commands\ModuleMakeCommand;
-use Mbf5923\Modules\Commands\NotificationMakeCommand;
-use Mbf5923\Modules\Commands\PolicyMakeCommand;
-use Mbf5923\Modules\Commands\ProviderMakeCommand;
-use Mbf5923\Modules\Commands\PublishCommand;
-use Mbf5923\Modules\Commands\PublishConfigurationCommand;
-use Mbf5923\Modules\Commands\PublishMigrationCommand;
-use Mbf5923\Modules\Commands\PublishTranslationCommand;
-use Mbf5923\Modules\Commands\RequestMakeCommand;
-use Mbf5923\Modules\Commands\ResourceMakeCommand;
-use Mbf5923\Modules\Commands\RouteProviderMakeCommand;
-use Mbf5923\Modules\Commands\RuleMakeCommand;
-use Mbf5923\Modules\Commands\SeedCommand;
-use Mbf5923\Modules\Commands\SeedMakeCommand;
-use Mbf5923\Modules\Commands\SetupCommand;
-use Mbf5923\Modules\Commands\TestMakeCommand;
-use Mbf5923\Modules\Commands\UnUseCommand;
-use Mbf5923\Modules\Commands\UpdateCommand;
-use Mbf5923\Modules\Commands\UseCommand;
+use Mbf\Modules\Commands\CommandMakeCommand;
+use Mbf\Modules\Commands\ComponentClassMakeCommand;
+use Mbf\Modules\Commands\ComponentViewMakeCommand;
+use Mbf\Modules\Commands\ControllerMakeCommand;
+use Mbf\Modules\Commands\DisableCommand;
+use Mbf\Modules\Commands\DumpCommand;
+use Mbf\Modules\Commands\EnableCommand;
+use Mbf\Modules\Commands\EventMakeCommand;
+use Mbf\Modules\Commands\FactoryMakeCommand;
+use Mbf\Modules\Commands\InstallCommand;
+use Mbf\Modules\Commands\JobMakeCommand;
+use Mbf\Modules\Commands\LaravelModulesV6Migrator;
+use Mbf\Modules\Commands\ListCommand;
+use Mbf\Modules\Commands\ListenerMakeCommand;
+use Mbf\Modules\Commands\MailMakeCommand;
+use Mbf\Modules\Commands\MiddlewareMakeCommand;
+use Mbf\Modules\Commands\MigrateCommand;
+use Mbf\Modules\Commands\MigrateRefreshCommand;
+use Mbf\Modules\Commands\MigrateResetCommand;
+use Mbf\Modules\Commands\MigrateRollbackCommand;
+use Mbf\Modules\Commands\MigrateStatusCommand;
+use Mbf\Modules\Commands\MigrationMakeCommand;
+use Mbf\Modules\Commands\ModelMakeCommand;
+use Mbf\Modules\Commands\ModuleDeleteCommand;
+use Mbf\Modules\Commands\ModuleMakeCommand;
+use Mbf\Modules\Commands\NotificationMakeCommand;
+use Mbf\Modules\Commands\PolicyMakeCommand;
+use Mbf\Modules\Commands\ProviderMakeCommand;
+use Mbf\Modules\Commands\PublishCommand;
+use Mbf\Modules\Commands\PublishConfigurationCommand;
+use Mbf\Modules\Commands\PublishMigrationCommand;
+use Mbf\Modules\Commands\PublishTranslationCommand;
+use Mbf\Modules\Commands\RequestMakeCommand;
+use Mbf\Modules\Commands\ResourceMakeCommand;
+use Mbf\Modules\Commands\RouteProviderMakeCommand;
+use Mbf\Modules\Commands\RuleMakeCommand;
+use Mbf\Modules\Commands\SeedCommand;
+use Mbf\Modules\Commands\SeedMakeCommand;
+use Mbf\Modules\Commands\SetupCommand;
+use Mbf\Modules\Commands\TestMakeCommand;
+use Mbf\Modules\Commands\UnUseCommand;
+use Mbf\Modules\Commands\UpdateCommand;
+use Mbf\Modules\Commands\UseCommand;
 
 class ConsoleServiceProvider extends ServiceProvider
 {
@@ -54,7 +54,7 @@ class ConsoleServiceProvider extends ServiceProvider
      * Namespace of the console commands
      * @var string
      */
-    protected $consoleNamespace = "Mbf5923\\Modules\\Commands";
+    protected $consoleNamespace = "Mbf\\Modules\\Commands";
 
     /**
      * The available commands

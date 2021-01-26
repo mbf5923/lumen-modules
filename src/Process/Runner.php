@@ -1,9 +1,9 @@
 <?php
 
-namespace Mbf5923\Modules\Process;
+namespace Mbf\Modules\Process;
 
-use Mbf5923\Modules\Contracts\RepositoryInterface;
-use Mbf5923\Modules\Contracts\RunableInterface;
+use Mbf\Modules\Contracts\RepositoryInterface;
+use Mbf\Modules\Contracts\RunableInterface;
 
 class Runner implements RunableInterface
 {

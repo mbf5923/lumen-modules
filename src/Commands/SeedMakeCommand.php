@@ -1,12 +1,12 @@
 <?php
 
-namespace Mbf5923\Modules\Commands;
+namespace Mbf\Modules\Commands;
 
 use Illuminate\Support\Str;
-use Mbf5923\Modules\Support\Config\GenerateConfigReader;
-use Mbf5923\Modules\Support\Stub;
-use Mbf5923\Modules\Traits\CanClearModulesCache;
-use Mbf5923\Modules\Traits\ModuleCommandTrait;
+use Mbf\Modules\Support\Config\GenerateConfigReader;
+use Mbf\Modules\Support\Stub;
+use Mbf\Modules\Traits\CanClearModulesCache;
+use Mbf\Modules\Traits\ModuleCommandTrait;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

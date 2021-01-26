@@ -1,10 +1,10 @@
 <?php
 
-namespace Mbf5923\Modules\Commands;
+namespace Mbf\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Mbf5923\Modules\Exceptions\FileAlreadyExistException;
-use Mbf5923\Modules\Generators\FileGenerator;
+use Mbf\Modules\Exceptions\FileAlreadyExistException;
+use Mbf\Modules\Generators\FileGenerator;
 
 abstract class GeneratorCommand extends Command
 {
@@ -79,7 +79,7 @@ abstract class GeneratorCommand extends Command
     /**
      * Get class namespace.
      *
-     * @param \Mbf5923\Modules\Module $module
+     * @param \Mbf\Modules\Module $module
      *
      * @return string
      */

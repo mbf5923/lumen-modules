@@ -1,10 +1,10 @@
 <?php
 
-namespace Mbf5923\Modules\Process;
+namespace Mbf\Modules\Process;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Mbf5923\Modules\Contracts\RepositoryInterface;
+use Mbf\Modules\Contracts\RepositoryInterface;
 use Symfony\Component\Process\Process;
 
 class Installer
@@ -25,7 +25,7 @@ class Installer
 
     /**
      * The module repository instance.
-     * @var \Mbf5923\Modules\Contracts\RepositoryInterface
+     * @var \Mbf\Modules\Contracts\RepositoryInterface
      */
     protected $repository;
 
@@ -90,7 +90,7 @@ class Installer
 
     /**
      * Set the module repository instance.
-     * @param \Mbf5923\Modules\Contracts\RepositoryInterface $repository
+     * @param \Mbf\Modules\Contracts\RepositoryInterface $repository
      * @return $this
      */
     public function setRepository(RepositoryInterface $repository)

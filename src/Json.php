@@ -1,9 +1,9 @@
 <?php
 
-namespace Mbf5923\Modules;
+namespace Mbf\Modules;
 
 use Illuminate\Filesystem\Filesystem;
-use Mbf5923\Modules\Exceptions\InvalidJsonException;
+use Mbf\Modules\Exceptions\InvalidJsonException;
 
 class Json
 {

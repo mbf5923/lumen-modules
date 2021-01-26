@@ -1,6 +1,6 @@
 <?php
 
-namespace Mbf5923\Modules;
+namespace Mbf\Modules;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Container\Container;
@@ -9,7 +9,7 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
 use Illuminate\Translation\Translator;
-use Mbf5923\Modules\Contracts\ActivatorInterface;
+use Mbf\Modules\Contracts\ActivatorInterface;
 
 abstract class Module
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Mbf5923\Modules\Contracts;
+namespace Mbf\Modules\Contracts;
 
-use Mbf5923\Modules\Module;
+use Mbf\Modules\Module;
 
 interface ActivatorInterface
 {

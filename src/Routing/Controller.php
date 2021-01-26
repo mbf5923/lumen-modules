@@ -1,6 +1,6 @@
 <?php
 
-namespace Mbf5923\Modules\Routing;
+namespace Mbf\Modules\Routing;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

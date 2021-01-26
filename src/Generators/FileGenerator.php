@@ -1,9 +1,9 @@
 <?php
 
-namespace Mbf5923\Modules\Generators;
+namespace Mbf\Modules\Generators;
 
 use Illuminate\Filesystem\Filesystem;
-use Mbf5923\Modules\Exceptions\FileAlreadyExistException;
+use Mbf\Modules\Exceptions\FileAlreadyExistException;
 
 class FileGenerator extends Generator
 {

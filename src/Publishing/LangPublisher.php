@@ -1,8 +1,8 @@
 <?php
 
-namespace Mbf5923\Modules\Publishing;
+namespace Mbf\Modules\Publishing;
 
-use Mbf5923\Modules\Support\Config\GenerateConfigReader;
+use Mbf\Modules\Support\Config\GenerateConfigReader;
 
 class LangPublisher extends Publisher
 {

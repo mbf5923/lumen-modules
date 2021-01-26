@@ -1,8 +1,8 @@
 <?php
 
-namespace Mbf5923\Modules\Publishing;
+namespace Mbf\Modules\Publishing;
 
-use Mbf5923\Modules\Migrations\Migrator;
+use Mbf\Modules\Migrations\Migrator;
 
 class MigrationPublisher extends AssetPublisher
 {

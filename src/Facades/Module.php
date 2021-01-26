@@ -1,6 +1,6 @@
 <?php
 
-namespace Mbf5923\Modules\Facades;
+namespace Mbf\Modules\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

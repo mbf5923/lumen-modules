@@ -1,11 +1,11 @@
 <?php
 
-namespace Mbf5923\Modules;
+namespace Mbf\Modules;
 
 use Illuminate\Support\ServiceProvider;
-use Mbf5923\Modules\Providers\BootstrapServiceProvider;
-use Mbf5923\Modules\Providers\ConsoleServiceProvider;
-use Mbf5923\Modules\Providers\ContractsServiceProvider;
+use Mbf\Modules\Providers\BootstrapServiceProvider;
+use Mbf\Modules\Providers\ConsoleServiceProvider;
+use Mbf\Modules\Providers\ContractsServiceProvider;
 
 abstract class ModulesServiceProvider extends ServiceProvider
 {

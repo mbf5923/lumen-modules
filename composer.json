@@ -1,10 +1,10 @@
 {
-  "name": "mbf5923/lumen-modules",
+  "name": "Mbf/lumen-modules",
   "description": "Lumen Module management",
   "keywords": [
     "modules",
     "lumen",
-    "mbf5923",
+    "Mbf",
     "module",
     "rad"
   ],
@@ -47,10 +47,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Mbf5923\\Modules\\LaravelModulesServiceProvider"
+        "Mbf\\Modules\\LumenModulesServiceProvider"
       ],
       "aliases": {
-        "Module": "Mbf5923\\Modules\\Facades\\Module"
+        "Module": "Mbf\\Modules\\Facades\\Module"
       }
     },
     "branch-alias": {

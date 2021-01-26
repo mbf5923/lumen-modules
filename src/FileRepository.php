@@ -1,6 +1,6 @@
 <?php
 
-namespace Mbf5923\Modules;
+namespace Mbf\Modules;
 
 use Countable;
 use Illuminate\Cache\CacheManager;
@@ -10,11 +10,11 @@ use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
-use Mbf5923\Modules\Contracts\RepositoryInterface;
-use Mbf5923\Modules\Exceptions\InvalidAssetPath;
-use Mbf5923\Modules\Exceptions\ModuleNotFoundException;
-use Mbf5923\Modules\Process\Installer;
-use Mbf5923\Modules\Process\Updater;
+use Mbf\Modules\Contracts\RepositoryInterface;
+use Mbf\Modules\Exceptions\InvalidAssetPath;
+use Mbf\Modules\Exceptions\ModuleNotFoundException;
+use Mbf\Modules\Process\Installer;
+use Mbf\Modules\Process\Updater;
 
 abstract class FileRepository implements RepositoryInterface, Countable
 {
@@ -129,7 +129,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
      * @param Container $app
      * @param string $args
      * @param string $path
-     * @return \Mbf5923\Modules\Module
+     * @return \Mbf\Modules\Module
      */
     abstract protected function createModule(...$args);
 
@@ -487,7 +487,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
     /**
      * Get module used for cli session.
      * @return string
-     * @throws \Mbf5923\Modules\Exceptions\ModuleNotFoundException
+     * @throws \Mbf\Modules\Exceptions\ModuleNotFoundException
      */
     public function getUsedNow() : string
     {
@@ -554,7 +554,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
      * Enabling a specific module.
      * @param string $name
      * @return void
-     * @throws \Mbf5923\Modules\Exceptions\ModuleNotFoundException
+     * @throws \Mbf\Modules\Exceptions\ModuleNotFoundException
      */
     public function enable($name)
     {
@@ -565,7 +565,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
      * Disabling a specific module.
      * @param string $name
      * @return void
-     * @throws \Mbf5923\Modules\Exceptions\ModuleNotFoundException
+     * @throws \Mbf\Modules\Exceptions\ModuleNotFoundException
      */
     public function disable($name)
     {

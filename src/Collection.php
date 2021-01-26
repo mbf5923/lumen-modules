@@ -1,6 +1,6 @@
 <?php
 
-namespace Mbf5923\Modules;
+namespace Mbf\Modules;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Collection as BaseCollection;

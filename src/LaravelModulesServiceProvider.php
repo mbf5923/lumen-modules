@@ -1,10 +1,10 @@
 <?php
 
-namespace Mbf5923\Modules;
+namespace Mbf\Modules;
 
-use Mbf5923\Modules\Contracts\RepositoryInterface;
-use Mbf5923\Modules\Exceptions\InvalidActivatorClass;
-use Mbf5923\Modules\Support\Stub;
+use Mbf\Modules\Contracts\RepositoryInterface;
+use Mbf\Modules\Exceptions\InvalidActivatorClass;
+use Mbf\Modules\Support\Stub;
 
 class LaravelModulesServiceProvider extends ModulesServiceProvider
 {

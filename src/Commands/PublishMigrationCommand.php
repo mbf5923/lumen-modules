@@ -1,10 +1,10 @@
 <?php
 
-namespace Mbf5923\Modules\Commands;
+namespace Mbf\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Mbf5923\Modules\Migrations\Migrator;
-use Mbf5923\Modules\Publishing\MigrationPublisher;
+use Mbf\Modules\Migrations\Migrator;
+use Mbf\Modules\Publishing\MigrationPublisher;
 use Symfony\Component\Console\Input\InputArgument;
 
 class PublishMigrationCommand extends Command
@@ -46,7 +46,7 @@ class PublishMigrationCommand extends Command
     /**
      * Publish migration for the specified module.
      *
-     * @param \Mbf5923\Modules\Module $module
+     * @param \Mbf\Modules\Module $module
      */
     public function publish($module)
     {

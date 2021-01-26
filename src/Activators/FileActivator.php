@@ -1,14 +1,14 @@
 <?php
 
-namespace Mbf5923\Modules\Activators;
+namespace Mbf\Modules\Activators;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Filesystem\Filesystem;
-use Mbf5923\Modules\Contracts\ActivatorInterface;
-use Mbf5923\Modules\Module;
+use Mbf\Modules\Contracts\ActivatorInterface;
+use Mbf\Modules\Module;
 
 class FileActivator implements ActivatorInterface
 {

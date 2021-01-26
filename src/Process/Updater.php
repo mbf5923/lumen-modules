@@ -1,8 +1,8 @@
 <?php
 
-namespace Mbf5923\Modules\Process;
+namespace Mbf\Modules\Process;
 
-use Mbf5923\Modules\Module;
+use Mbf\Modules\Module;
 
 class Updater extends Runner
 {

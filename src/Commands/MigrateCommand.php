@@ -1,10 +1,10 @@
 <?php
 
-namespace Mbf5923\Modules\Commands;
+namespace Mbf\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Mbf5923\Modules\Migrations\Migrator;
-use Mbf5923\Modules\Module;
+use Mbf\Modules\Migrations\Migrator;
+use Mbf\Modules\Module;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
@@ -25,7 +25,7 @@ class MigrateCommand extends Command
     protected $description = 'Migrate the migrations from the specified module or from all modules.';
 
     /**
-     * @var \Mbf5923\Modules\Contracts\RepositoryInterface
+     * @var \Mbf\Modules\Contracts\RepositoryInterface
      */
     protected $module;
 

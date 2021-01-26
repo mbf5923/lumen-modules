@@ -1,15 +1,15 @@
 <?php
 
-namespace Mbf5923\Modules\Generators;
+namespace Mbf\Modules\Generators;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Console\Command as Console;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use Mbf5923\Modules\Contracts\ActivatorInterface;
-use Mbf5923\Modules\FileRepository;
-use Mbf5923\Modules\Support\Config\GenerateConfigReader;
-use Mbf5923\Modules\Support\Stub;
+use Mbf\Modules\Contracts\ActivatorInterface;
+use Mbf\Modules\FileRepository;
+use Mbf\Modules\Support\Config\GenerateConfigReader;
+use Mbf\Modules\Support\Stub;
 
 class ModuleGenerator extends Generator
 {
@@ -51,7 +51,7 @@ class ModuleGenerator extends Generator
     /**
      * The module instance.
      *
-     * @var \Mbf5923\Modules\Module
+     * @var \Mbf\Modules\Module
      */
     protected $module;
 
@@ -227,7 +227,7 @@ class ModuleGenerator extends Generator
     /**
      * Get the module instance.
      *
-     * @return \Mbf5923\Modules\Module
+     * @return \Mbf\Modules\Module
      */
     public function getModule()
     {

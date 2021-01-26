@@ -1,9 +1,9 @@
 <?php
 
-namespace Mbf5923\Modules\Providers;
+namespace Mbf\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Mbf5923\Modules\Contracts\RepositoryInterface;
+use Mbf\Modules\Contracts\RepositoryInterface;
 
 class BootstrapServiceProvider extends ServiceProvider
 {

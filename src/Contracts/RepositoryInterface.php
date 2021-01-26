@@ -1,9 +1,9 @@
 <?php
 
-namespace Mbf5923\Modules\Contracts;
+namespace Mbf\Modules\Contracts;
 
-use Mbf5923\Modules\Exceptions\ModuleNotFoundException;
-use Mbf5923\Modules\Module;
+use Mbf\Modules\Exceptions\ModuleNotFoundException;
+use Mbf\Modules\Module;
 
 interface RepositoryInterface
 {
@@ -31,7 +31,7 @@ interface RepositoryInterface
     /**
      * Get modules as modules collection instance.
      *
-     * @return \Mbf5923\Modules\Collection
+     * @return \Mbf\Modules\Collection
      */
     public function toCollection();
 
@@ -157,7 +157,7 @@ interface RepositoryInterface
      * Delete a specific module.
      * @param string $module
      * @return bool
-     * @throws \Mbf5923\Modules\Exceptions\ModuleNotFoundException
+     * @throws \Mbf\Modules\Exceptions\ModuleNotFoundException
      */
     public function delete(string $module): bool;
 

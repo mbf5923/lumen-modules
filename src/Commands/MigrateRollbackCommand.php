@@ -1,10 +1,10 @@
 <?php
 
-namespace Mbf5923\Modules\Commands;
+namespace Mbf\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Mbf5923\Modules\Migrations\Migrator;
-use Mbf5923\Modules\Traits\MigrationLoaderTrait;
+use Mbf\Modules\Migrations\Migrator;
+use Mbf\Modules\Traits\MigrationLoaderTrait;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
@@ -27,7 +27,7 @@ class MigrateRollbackCommand extends Command
     protected $description = 'Rollback the modules migrations.';
 
     /**
-     * @var \Mbf5923\Modules\Contracts\RepositoryInterface
+     * @var \Mbf\Modules\Contracts\RepositoryInterface
      */
     protected $module;
 

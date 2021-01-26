@@ -1,11 +1,11 @@
 <?php
 
-namespace Mbf5923\Modules\Publishing;
+namespace Mbf\Modules\Publishing;
 
 use Illuminate\Console\Command;
-use Mbf5923\Modules\Contracts\PublisherInterface;
-use Mbf5923\Modules\Contracts\RepositoryInterface;
-use Mbf5923\Modules\Module;
+use Mbf\Modules\Contracts\PublisherInterface;
+use Mbf\Modules\Contracts\RepositoryInterface;
+use Mbf\Modules\Module;
 
 abstract class Publisher implements PublisherInterface
 {
@@ -87,7 +87,7 @@ abstract class Publisher implements PublisherInterface
     /**
      * Get module instance.
      *
-     * @return \Mbf5923\Modules\Module
+     * @return \Mbf\Modules\Module
      */
     public function getModule()
     {
